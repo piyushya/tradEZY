@@ -26,9 +26,9 @@ const registerWithGoogle = async () => {
   const user = result.user;
 
   // Check if the user is new or existing.
-  const isNewUser = await userExists(user.uid)
+  const isOldUser = await userExists(user.uid)
 
-  if (!isNewUser) {
+  if (!isOldUser) {
     // User's display name
     const displayName = user.displayName;
     // User's profile picture URL
