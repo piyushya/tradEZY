@@ -36,6 +36,11 @@ async function userExists(uid){
     return false
 }
 
+async function deleteUser(uid) {
+    if (userExists(uid)=true) {
+    
+    }
+}
 async function updateUserData(){
     //
 }
@@ -43,5 +48,6 @@ async function updateUserData(){
 export {
     addNewUser,
     getUserData,
-    userExists
+    userExists,
+    deleteUser
 }
