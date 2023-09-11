@@ -19,10 +19,10 @@ function addNewUser(userData){
     set(reference,{
         email: userData.email,
         name: userData.name,
-        phNumber: "",
+        phNumber: userData.phNumber,
         ppUrl: userData.ppUrl,
         userId: userData.userId,
-        address: "",
+        address: userData.address,
         listings: []
     })
 }
@@ -36,9 +36,9 @@ async function userExists(uid){
     return false
 }
 
-async function updateUserData(){
-    //
-}
+// async function updateUserData(){
+//     //
+// }
 
 export {
     addNewUser,
