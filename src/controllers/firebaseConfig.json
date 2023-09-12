@@ -1,0 +1,26 @@
+{
+   "data":{
+      "Listings":{
+         "Listing1id":{
+            "itemName":"",
+            "Price":"",
+            "UserID":"",
+            "AddedOn":"",
+            "exWith":[],
+            "descrip":""
+         },
+         "Listing2id":{}
+      },
+      "Users":{
+         "User1id":{
+            "name":"",
+            "email":"",
+            "contact":"",
+            "pplURL":"",
+            "listings":[],
+            "address":""
+         },
+         "User2id":{}
+      }
+   } 
+}

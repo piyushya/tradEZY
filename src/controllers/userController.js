@@ -36,12 +36,13 @@ async function userExists(uid){
     return false
 }
 
-// async function updateUserData(){
-//     //
-// }
+async function updateUserData(){
+    //
+}
 
 export {
     addNewUser,
     getUserData,
-    userExists
+    userExists,
+    deleteUser
 }
